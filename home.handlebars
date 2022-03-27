@@ -1,0 +1,8 @@
+<h1>Cds disponiveis</h1>
+{{#each cds}}
+  <div>
+    <h3>{{this.name}}</h3>
+    <p>{{this.author}}</p>
+    <p><a href="/cd/{{this.id}}">Ver detalhes</a></p>
+  </div>
+{{/each}}
